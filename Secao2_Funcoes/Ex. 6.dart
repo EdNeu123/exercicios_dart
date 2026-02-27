@@ -12,13 +12,18 @@
 double executarOperacao(
   double a,
   double b,
-  double Function(double, double) operacao, // Especifica que 'operacao' é uma função que recebe dois doubles e retorna um double
+  double Function(double, double)
+  operacao, // Especifica que 'operacao' é uma função que recebe dois doubles e retorna um double
 ) {
   return operacao(a, b);
 }
 
 void main() {
-  double soma = executarOperacao(10, 5, (x, y) => x + y); // Faz a soma usando a função anônima.
+  double soma = executarOperacao(
+    10,
+    5,
+    (x, y) => x + y,
+  ); // Faz a soma usando a função anônima.
   double subtracao = executarOperacao(10, 5, (x, y) => x - y);
   double multiplicacao = executarOperacao(10, 5, (x, y) => x * y);
   double divisao = executarOperacao(10, 5, (x, y) => x / y);
