@@ -16,7 +16,7 @@ void main() {
   // TENTANDO REATRIBUIR 'pi'
   ///////////////////////////////////
 
-  pi = 3.14;
+  // pi = 3.14;
   // ERRO:
   // "Error: Setter not found: 'pi'"
 
@@ -29,7 +29,7 @@ void main() {
   // TENTANDO REATRIBUIR 'dataAtual'//
   ///////////////////////////////////
 
-  dataAtual = DateTime.now();
+  // dataAtual = DateTime.now();
   // ERRO:
   // "Error: Can't assign to the final variable 'dataAtual'"
 
