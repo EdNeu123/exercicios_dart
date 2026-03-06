@@ -12,11 +12,7 @@ final dataAtual = DateTime.now();
 void main() {
   print('Os valores atuais de pi e data atual são: $pi e $dataAtual');
 
-  ///////////////////////////////////
-  // TENTANDO REATRIBUIR 'pi'
-  ///////////////////////////////////
-
-  // pi = 3.14;
+  pi = 3.14;
   // ERRO:
   // "Error: Setter not found: 'pi'"
 
@@ -25,11 +21,7 @@ void main() {
   // O valor é fixo e imutável.
   // Não pode ser alterado em nenhuma hipótese.
 
-  ///////////////////////////////////
-  // TENTANDO REATRIBUIR 'dataAtual'//
-  ///////////////////////////////////
-
-  // dataAtual = DateTime.now();
+  dataAtual = DateTime.now();
   // ERRO:
   // "Error: Can't assign to the final variable 'dataAtual'"
 
